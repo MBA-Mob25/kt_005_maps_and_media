@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mapas e Multimídia</string>
+    <string name="btn_recovery_images">Recuperando fotos com ImageView</string>
+    <string name="btn_mapview">Utilizando mapas: MapView</string>
+    <string name="btn_location_api">Localização do Usuário com Location API</string>
+    <string name="btn_routes">Rotas</string>
+    <string name="btn_interests">Pontos de Interesse</string>
+    <string name="btn_webview">Usando WebView em seus Apps</string>
+    <string name="btn_sounds">Sons: AudioManager</string>
+    <string name="btn_videos">Vídeos: MediaPlayer</string>
+    <string name="btn_view_animation">Animação emn views com ViewAnimation</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnOpenRecoveryImages"
+        android:text="@string/btn_recovery_images"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="@string/btn_mapview"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/btn_location_api"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/btn_routes"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/btn_interests"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/btn_webview"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/btn_sounds"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/btn_videos"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/btn_view_animation"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
