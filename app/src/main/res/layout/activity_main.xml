@@ -50,6 +50,7 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        android:id="@+id/btnOpenWebView"
         android:text="@string/btn_webview"
         android:textSize="14sp"
         android:textAllCaps="false"

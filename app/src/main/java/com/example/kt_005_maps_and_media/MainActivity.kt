@@ -19,11 +19,17 @@ class MainActivity : AppCompatActivity() {
         // Configurando as ações de cada botão, abrindo suas interfaces
         with(binding) {
             btnOpenRecoveryImages.setOnClickListener(View.OnClickListener { openRecoveryPhotosWithImageView() })
+            btnOpenWebView.setOnClickListener(View.OnClickListener { openWebViewView() })
         }
     }
 
     private fun openRecoveryPhotosWithImageView() {
         val intent = Intent(this, RecoveryPhotosActivity::class.java);
+        startActivity(intent);
+    }
+
+    private fun openWebViewView() {
+        val intent = Intent(this, WebViewActivity::class.java);
         startActivity(intent);
     }
 

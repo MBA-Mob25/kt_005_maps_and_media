@@ -38,16 +38,15 @@ class RecoveryPhotosActivity : AppCompatActivity() {
 
         pets[0].also { binding.textView1.text = it }
         images[0].also { Glide.with(this).load(it).into(binding.imageView1) }
-
-//        pets[1].also { textView2.text = it }
-//        Glide.with(this).load(images[1]).into(imageView2!!)
-//        pets[2].also { textView3.text = it }
-//        Glide.with(this).load(images[2]).into(imageView3!!)
-//        pets[3].also { textView4.text = it }
-//        Glide.with(this).load(images[3]).into(imageView4!!)
-//        pets[4].also { textView5.text = it }
-//        Glide.with(this).load(images[4]).into(imageView5!!)
-//        pets[5].also { textView6.text = it }
-//        Glide.with(this).load(images[5]).into(imageView6!!)
+        pets[1].also { binding.textView2.text = it }
+        images[1].also { Glide.with(this).load(it).into(binding.imageView2) }
+        pets[2].also { binding.textView3.text = it }
+        images[2].also { Glide.with(this).load(it).into(binding.imageView3) }
+        pets[3].also { binding.textView4.text = it }
+        images[3].also { Glide.with(this).load(it).into(binding.imageView4) }
+        pets[4].also { binding.textView5.text = it }
+        images[4].also { Glide.with(this).load(it).into(binding.imageView5) }
+        pets[5].also { binding.textView6.text = it }
+        images[5].also { Glide.with(this).load(it).into(binding.imageView6) }
     }
 }
