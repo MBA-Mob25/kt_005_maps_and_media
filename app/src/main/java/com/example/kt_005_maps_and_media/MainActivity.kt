@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         with(binding) {
             btnOpenRecoveryImages.setOnClickListener(View.OnClickListener { openRecoveryPhotosWithImageView() })
             btnOpenWebView.setOnClickListener(View.OnClickListener { openWebViewView() })
+            btnOpenAudioView.setOnClickListener(View.OnClickListener { openAudioView() })
         }
     }
 
@@ -32,5 +33,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, WebViewActivity::class.java);
         startActivity(intent);
     }
+
+    private fun openAudioView() {
+        val intent = Intent(this, SoundPlayerActivity::class.java);
+        startActivity(intent);}
 
 }

@@ -59,12 +59,13 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        android:id="@+id/btnOpenAudioView"
         android:text="@string/btn_sounds"
         android:textSize="14sp"
         android:textAllCaps="false"
         android:gravity="start"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
     <Button
         android:text="@string/btn_videos"

@@ -9,4 +9,5 @@
     <string name="btn_sounds">Sons: AudioManager</string>
     <string name="btn_videos">Vídeos: MediaPlayer</string>
     <string name="btn_view_animation">Animação emn views com ViewAnimation</string>
+    <string name="btn_touch_animal">Toque na imagem do animal!</string>
 </resources>
