@@ -68,6 +68,7 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/btnOpenVideoPlayer"
         android:text="@string/btn_videos"
         android:textSize="14sp"
         android:textAllCaps="false"
