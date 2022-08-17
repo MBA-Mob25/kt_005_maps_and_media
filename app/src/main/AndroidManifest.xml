@@ -19,6 +19,9 @@
         android:theme="@style/Theme.Kt_005_maps_and_media"
         tools:targetApi="31">
         <activity
+            android:name=".AnimationActivity"
+            android:exported="false" />
+        <activity
             android:name=".VideoPlayerActivity"
             android:exported="false" />
         <activity
@@ -30,11 +33,6 @@
         <activity
             android:name=".RecoveryPhotosActivity"
             android:exported="false" />
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDVff6FC6jjSlJiS3xY-rBWJmOA7CWMhQU" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">

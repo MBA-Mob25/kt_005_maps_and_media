@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             btnOpenWebView.setOnClickListener(View.OnClickListener { openWebViewView() })
             btnOpenAudioView.setOnClickListener(View.OnClickListener { openAudioView() })
             btnOpenVideoPlayer.setOnClickListener(View.OnClickListener { openVideoPlayerView() })
+            btnOpenAnimationView.setOnClickListener(View.OnClickListener { openAnimationView() })
         }
     }
 
@@ -42,6 +43,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun openVideoPlayerView() {
         val intent = Intent(this, VideoPlayerActivity::class.java);
+        startActivity(intent);
+    }
+
+    private fun openAnimationView() {
+        val intent = Intent(this, AnimationActivity::class.java);
         startActivity(intent);
     }
 
