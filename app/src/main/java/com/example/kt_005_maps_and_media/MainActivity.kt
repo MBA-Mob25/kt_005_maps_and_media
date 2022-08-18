@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.example.kt_005_maps_and_media.databinding.ActivityMainBinding
+import com.google.android.gms.maps.MapView
 
 @SuppressLint("StaticFieldLeak")
 private lateinit var binding: ActivityMainBinding
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
             btnOpenAudioView.setOnClickListener(View.OnClickListener { openAudioView() })
             btnOpenVideoPlayer.setOnClickListener(View.OnClickListener { openVideoPlayerView() })
             btnOpenAnimationView.setOnClickListener(View.OnClickListener { openAnimationView() })
+            btnOpenMapView.setOnClickListener(View.OnClickListener { openMapView() })
         }
     }
 
@@ -51,4 +53,8 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent);
     }
 
+    private fun openMapView() {
+        val intent = Intent(this, MapActivity::class.java);
+        startActivity(intent);
+    }
 }
